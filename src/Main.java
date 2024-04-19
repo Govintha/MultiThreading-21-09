@@ -36,6 +36,7 @@ public class Main {
         int randomInteger2 = random2.get();
         System.out.println("AFTER GET Hello World : Thread " + Thread.currentThread().getName());
         System.out.println("SUM : " + (randomInteger1 + randomInteger2) + ", Thread : " + Thread.currentThread().getName());
+        System.out.println("Govinth");
 
     }
 }
